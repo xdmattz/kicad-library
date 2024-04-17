@@ -1,0 +1,17 @@
+(module SquareAirCoil_908-8N1 (layer F.Cu) (tedit 5AD9E5EF)
+  (attr smd)
+  (fp_text reference REF** (at 0.05 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SquareAirCoil_908-8N1 (at 0.2 -1.15) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -0.2 -1.3) (end 0.2 1.3) (layer F.SilkS) (width 0.15))
+  (pad 1 smd rect (at -0.6 0) (size 0.64 2.8) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0.6 0) (size 0.64 2.8) (layers F.Cu F.Paste F.Mask))
+  (model ${T_LIBS}/3d/t_coilcraft/Coilcraft-0908SQ-8N1.stp
+    (offset (xyz -0.6 -0.9 0.2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)

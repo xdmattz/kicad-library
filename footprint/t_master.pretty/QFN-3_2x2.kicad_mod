@@ -1,0 +1,11 @@
+(module "QFN-3_2x2"
+  (fp_text reference "REF**" (at 0.0000 2.5400) (layer F.SilkS) (effects (font (size 1.0000 1.0000) (thickness 0.1500))))
+  (fp_text value "QFN-3_2x2" (at 0.0000 -2.5400) (effects (font (size 1.0000 1.0000) (thickness 0.1500))))
+  (pad "1" thru_hole rect (at 0.8750 0.0000 90.0) (size 0.2700 0.5500) (layers *.Cu))
+  (pad "2" thru_hole rect (at 0.0000 0.0000) (size 0.5000 2.5400) (layers *.Cu))
+  (pad "3" thru_hole rect (at -0.8750 0.0000 90.0) (size 0.2700 0.5500) (layers *.Cu))
+  (pad "2" smd circle (at 0.0000 -0.5080) (size 0.5000 0.5000) (layers *.Cu *.Mask) (zone_connect 2))
+  (pad "2" smd circle (at 0.0000 0.0000) (size 0.5000 0.5000) (layers *.Cu *.Mask))
+  (pad "2" smd circle (at 0.0000 0.5080) (size 0.5000 0.5000) (layers *.Cu *.Mask))
+  (model "QFN-3_2mm.wrl" (at (xyz -0.0394 -0.0394 0.0000)) (scale (xyz 0.3937 0.3937 0.3937)) (rotate (xyz 0.0000 0.0000 0.0000)))
+)

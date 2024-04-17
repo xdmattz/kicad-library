@@ -1,0 +1,20 @@
+(module SquareAirCoil-8N1-Mod (layer F.Cu) (tedit 5910E1CB)
+  (fp_text reference L1 (at 0 0) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value INDUCTOR (at -0.8636 5.5372 90) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -0.7366 0) (size 0.96012 2.4892) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0.7366 0) (size 0.96012 2.4892) (layers F.Cu F.Paste F.Mask))
+  (model ${T_LIBS}/3d/Coilcraft-0908SQ-8N1a.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${T_LIBS}/3d/t_coilcraft/Coilcraft-0908SQ-8N1a.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

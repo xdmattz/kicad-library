@@ -1,0 +1,9 @@
+(module Mtg_150x70 (layer F.Cu) (tedit 57EC28B2)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Mtg_150x70 (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 3.81 3.81) (drill 1.778) (layers *.Cu *.Mask))
+)

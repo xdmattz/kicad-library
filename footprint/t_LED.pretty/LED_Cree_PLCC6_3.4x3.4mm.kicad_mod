@@ -1,0 +1,229 @@
+(footprint "LED_Cree_PLCC6_3.4x3.4mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "LED Cree PLCC-6 CLX6F-FKC")
+	(property "Reference" "D11"
+		(at 0 -2.75 0)
+		(layer "F.Fab")
+		(uuid "f051c06a-bd22-4485-aeab-b7fed005f5a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_RGB"
+		(at 0 2.75 0)
+		(layer "F.Fab")
+		(uuid "06b07e03-a192-469e-bdc9-f80c9e1abe69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39cf4ad0-2337-41f4-944a-cf357c56714d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a0e6911-de7a-4f95-bfcc-9c4770ba6127")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebacf561-15fd-4ba9-bea9-12e41871d790")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 -1.71)
+		(end 1.7 -1.71)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37e0891a-aca4-420b-a712-dd49fb5cd589")
+	)
+	(fp_line
+		(start -1.7 1.71)
+		(end 1.7 1.71)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0384e0a2-5937-4c18-9bb1-8125c5ae9f12")
+	)
+	(fp_line
+		(start -2.2 -1.95)
+		(end -2.2 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b933b4fc-2cd1-436d-a057-4041724e9e9f")
+	)
+	(fp_line
+		(start -2.2 -1.95)
+		(end 2.2 -1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d0bd340-766d-49e5-917f-54ac15b55e32")
+	)
+	(fp_line
+		(start -2.2 1.95)
+		(end 2.2 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca8c4cad-c9e9-4d9e-a403-4f8654ac040f")
+	)
+	(fp_line
+		(start 2.2 -1.95)
+		(end 2.2 1.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bceeb8d9-fedb-4e96-b268-bb251cf75ff0")
+	)
+	(fp_line
+		(start -1.7 -1.7)
+		(end -1.7 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "652f2274-319d-45e6-a9df-ae0ddbe2ae5c")
+	)
+	(fp_line
+		(start -1.7 -1.7)
+		(end 1.7 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f3eaaf5-a532-4bed-aad7-16478eebfd35")
+	)
+	(fp_line
+		(start -1.7 -1.2)
+		(end -1.2 -1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "066a627e-6f47-4fb4-bf23-1764afa5f458")
+	)
+	(fp_line
+		(start -1.7 1.7)
+		(end 1.7 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89549dec-b681-42cb-8c81-c16aa4e80126")
+	)
+	(fp_line
+		(start 1.7 -1.7)
+		(end 1.7 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cc3ef0b-5cdf-49f8-975a-68c72e21c24c")
+	)
+	(pad "1" smd roundrect
+		(at -1.55 -1)
+		(size 1.2 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "4b66bc0f-0e67-4c6d-bf37-eab9590179a8")
+	)
+	(pad "2" smd roundrect
+		(at -1.55 0)
+		(size 1.2 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "771f20c9-9993-4e51-8467-2776f2425aed")
+	)
+	(pad "3" smd roundrect
+		(at -1.55 1)
+		(size 1.2 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "25e7b4c4-9e4b-49ab-bf26-7c9f637bcbc7")
+	)
+	(pad "4" smd roundrect
+		(at 1.55 1)
+		(size 1.2 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f343074c-4ae5-4175-8ef3-8e36a3c8835f")
+	)
+	(pad "5" smd roundrect
+		(at 1.55 0)
+		(size 1.2 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "453cc73d-9046-40ec-b2ce-cac2fffa90ad")
+	)
+	(pad "6" smd roundrect
+		(at 1.55 -1)
+		(size 1.2 0.6)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "1f2393a9-cb0f-4611-b5ec-7f71c6a2cded")
+	)
+	(model "${KISYS3DMOD}/LED_SMD.3dshapes/LED_RGB_5050-6.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.6 0.6 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

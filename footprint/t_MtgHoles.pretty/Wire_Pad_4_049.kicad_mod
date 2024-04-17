@@ -1,0 +1,9 @@
+(module Wire_Pad_4_049 (layer F.Cu) (tedit 5BEF27C1)
+  (fp_text reference 5V (at 0.3 1.6 90) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (fp_text value VCC (at -9.520276 0.75) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at -0.520276 0) (size 2 2) (drill 1.2446) (layers *.Cu *.Mask))
+)

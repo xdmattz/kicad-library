@@ -1,0 +1,18 @@
+(module "TP_Loop" (layer F.Cu) (tedit 5CFEA514)
+  (fp_text reference "REF**" (at 0.3 0.1) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "S1751" (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -2 1.2) (end -2 -1.2) (layer F.SilkS) (width 0.15))
+  (fp_line (start 2 1.2) (end -2 1.2) (layer F.SilkS) (width 0.15))
+  (fp_line (start 2 -1.2) (end 2 1.2) (layer F.SilkS) (width 0.15))
+  (fp_line (start -2 -1.2) (end 2 -1.2) (layer F.SilkS) (width 0.15))
+  (pad "1" smd rect (at 0 0) (size 3.45 1.85) (layers "F.Cu" "F.Paste" "F.Mask"))
+  (model "${T_LIBS}/3d/t_misc/s1751-06.stp"
+    (offset (xyz 0 0.7999999879852057 2.049999969212089))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)

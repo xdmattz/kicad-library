@@ -1,0 +1,9 @@
+(module VIA_028_DR_013 (layer F.Cu) (tedit 57AA180D)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 0.5 0.5) (thickness 0.1)))
+  )
+  (fp_text value VIA_028_DR_013 (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 0.3 0.3) (thickness 0.075)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.7112 0.7112) (drill 0.3302) (layers *.Cu))
+)

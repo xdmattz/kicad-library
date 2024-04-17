@@ -1,0 +1,7 @@
+(module "SquareAirCoil-14-0908"
+  (fp_text reference "SquareAirCoil-14-0908" (at 0.0000 0.0000) (layer F.SilkS) (effects (font (size 1.0000 1.0000) (thickness 0.1500))))
+  (fp_text value "VAL**" (at 0.0000 0.0000) (layer F.SilkS) (effects (font (size 1.0000 1.0000) (thickness 0.1500))))
+  (fp_line (start -0.2000 -1.3000) (end 0.2000 1.3000) (layer F.SilkS) (width 0.1500))
+  (pad "1" thru_hole rect (at -0.6200 0.0000) (size 0.6400 2.8000) (layers *.Cu))
+  (pad "2" thru_hole rect (at 0.6200 0.0000) (size 0.6400 2.8000) (layers *.Cu))
+)

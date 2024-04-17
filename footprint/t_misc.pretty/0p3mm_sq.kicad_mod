@@ -1,0 +1,9 @@
+(module 0p3mm_sq (layer F.Cu) (tedit 58B81ABE)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 0.6 0.5) (thickness 0.1)))
+  )
+  (fp_text value 0p3mm_sq (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 0 0) (size 0.3 0.3) (layers F.Cu F.Paste F.Mask))
+)

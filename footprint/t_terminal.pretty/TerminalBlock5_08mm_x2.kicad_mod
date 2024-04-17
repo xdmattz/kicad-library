@@ -1,0 +1,21 @@
+(module TerminalBlock5_08mm_x2 (layer F.Cu) (tedit 553F9B4B)
+  (fp_text reference P1 (at -0.1 -2) (layer F.SilkS) hide
+    (effects (font (size 0.8636 1.016) (thickness 0.127)))
+  )
+  (fp_text value CONN_01X02 (at 0.7 0.2) (layer F.SilkS) hide
+    (effects (font (size 0.8636 1.016) (thickness 0.127)))
+  )
+  (fp_line (start -2.5 4.75) (end -2.5 2) (layer F.SilkS) (width 0.15))
+  (fp_line (start 2.5 4.75) (end 2.5 2) (layer F.SilkS) (width 0.15))
+  (fp_line (start -5.25 4.75) (end 5.25 4.75) (layer F.SilkS) (width 0.15))
+  (fp_line (start 5.25 4.75) (end 5.25 -4.75) (layer F.SilkS) (width 0.15))
+  (fp_line (start 5.25 -4.75) (end -5.25 -4.75) (layer F.SilkS) (width 0.15))
+  (fp_line (start -5.25 -4.75) (end -5.25 4.75) (layer F.SilkS) (width 0.15))
+  (pad 1 thru_hole rect (at -2.54 0) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 2.54 0) (size 2.5 2.5) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
+  (model ${LIBKICAD}/3d/conn_screw/mors_2p.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
+)

@@ -1,0 +1,21 @@
+(module r_0402_small (layer F.Cu) (tedit 5BF2D7C1)
+  (descr "SMT resistor, 0402")
+  (fp_text reference R1 (at 0 0.9) (layer F.SilkS)
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (fp_text value R_Small_USA (at -0.4 0.9) (layer F.SilkS) hide
+    (effects (font (size 0.1524 0.1524) (thickness 0.03048)))
+  )
+  (pad 1 smd rect (at 0.55 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at -0.55 0) (size 0.5 0.6) (layers F.Cu F.Paste F.Mask))
+  (model ${LIBKICAD}/3d/smd_resistors/r_0402.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0402.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

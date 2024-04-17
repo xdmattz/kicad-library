@@ -1,0 +1,9 @@
+(module SMT_Pad_100x60sq (layer F.Cu) (tedit 5A47CFC4)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SMT_Pad_60x60sq (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 0 0) (size 2.54 1.524) (layers F.Cu F.Paste F.Mask))
+)
